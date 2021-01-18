@@ -2,34 +2,45 @@ body {
     margin: 0;
     padding: 0;
 }
+.principal {
+    margin-top: 4%;
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: fixed;
-    right: 10;
-    bottom: 10;
-    min-width: 50%; 
-    min-height: 50%;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: fixed;
+    top: 50px;
+}
+.principal .video {
     text-align: center;
-    bottom: -10;
-    /* background: rgba(0, 0, 0, 0.5); */
-    color: #ffffff;
-    width: 100%;
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
+.principal .video #myVideo {
+    width: 50%;
+}
+.principal .content {
+    margin-top: -28%;
+    position: relative;
+    color:gold;
+    text-align: center;
+}
+.principal .content-pie {
+    margin-top: 17%;
+    position: relative;
+    color:gold;
+    text-align: center;
+}
+.carusel {
+    margin-top: 100%;
+}
+
   /* CSS para emular carrusel  */
-  .slider{
+.carusel {
+    margin-top: 5%;
+  }
+
+  .slider {
+      margin-top: 50%;
       width: 60%;
       margin: auto;
       overflow: hidden;
   }
-  .slider ul{
+  .slider ul {
       display: flex;
       padding: 0;  
       width: 400%;  
@@ -38,11 +49,11 @@ body {
       animation-timing-function: ease-in;
       /* animation-direction: alternate; */
   }
-  .slider li{
+  .slider li {
       width: 100%;
     list-style: none;
   }
-  .slider img{
+  .slider img {
       width: 100%;
   }
   @keyframes cambio{
@@ -59,3 +70,10 @@ body {
       100% { margin-left: -300%;}
   }
   /* CSS para emular carrusel  */
+
+  /* FOOTE */
+
+.footer {
+    display: flex;
+    border-top: 1px solid black;
+}
