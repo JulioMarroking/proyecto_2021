@@ -24,10 +24,10 @@ body {
 .principal .content-pie {
     margin-top: 15%;
     position: relative;
-    color:gold;
+    color:rgba(250, 225, 4, 0.801);
     text-align: center;
 }
-.carusel {
+.carousel {
     margin-top: 5%;
     width: 90%;
     display: inline-block;
@@ -70,12 +70,19 @@ body {
   /* CSS para emular carrusel  */
 
   /* FOOTE */
-aside {
+.aside {
     background-color: rgba(192, 204, 214, 0);
     width: 24%;
     margin-top: -71%;
     position: fixed;
     margin-left: 75%; 
+}    
+.menu {
+        background-color: rgba(192, 204, 214, 0);
+        width: 24%;
+        margin-top: -71%;
+        position: fixed;
+        margin-right: 100%; 
 }
 .footer {
     display: flex;
