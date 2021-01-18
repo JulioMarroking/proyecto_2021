@@ -1,20 +1,22 @@
 body {
     margin: 0;
     padding: 0;
+    background-color:aliceblue
 }
 .principal {
     margin-top: 4%;
-
+    width: 90%;
+    display: inline-block;
     top: 50px;
 }
 .principal .video {
     text-align: center;
 }
 .principal .video #myVideo {
-    width: 50%;
+    width: 60%;
 }
 .principal .content {
-    margin-top: -28%;
+    margin-top: -32%;
     position: relative;
     color:gold;
     text-align: center;
@@ -26,14 +28,10 @@ body {
     text-align: center;
 }
 .carusel {
-    margin-top: 100%;
-}
-
-  /* CSS para emular carrusel  */
-.carusel {
     margin-top: 5%;
-  }
-
+    width: 90%;
+    display: inline-block;
+}
   .slider {
       margin-top: 50%;
       width: 60%;
@@ -50,7 +48,7 @@ body {
       /* animation-direction: alternate; */
   }
   .slider li {
-      width: 100%;
+    width: 100%;
     list-style: none;
   }
   .slider img {
@@ -72,7 +70,13 @@ body {
   /* CSS para emular carrusel  */
 
   /* FOOTE */
-
+aside {
+    background-color: darkkhaki;
+    width: 25%;
+    margin-top: -71%;
+    position: fixed;
+    margin-left: 75%; 
+}
 .footer {
     display: flex;
     border-top: 1px solid black;
