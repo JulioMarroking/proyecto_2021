@@ -9,11 +9,10 @@
   <title>Proyecto en Bedu</title>
 </head>
 <body>
-
   <section>   <!-- Barra de navegación. -->
     <ul class="nav nav-pills nav-tabs positions fixed-top bg-light">
       <li class="nav-item">
-        <a class="nav-link active" shref="#">Telecomunicaciones</a>
+        <a class="nav-link active" shref="#">Network Operation Center</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ciena</a>
@@ -46,42 +45,51 @@
         </li>
     </ul>
   </section>   <!-- Barra de navegación. -->
-
-  <section>
-    <div class="jumbotron">   <!-- Definimos jumbotron -->    
-      <video autoplay loop muted id="myVideo">      <!--video-->
+  <section class="principal">
+    <div class="video">   <!-- Definimos jumbotron -->    
+      <video autoplay loop muted id="myVideo";>      <!--video-->
         <source src="./videos/telecom.mp4" type="video/mp4">
       </video>                                   <!--video-->
-      <div class="content">
-        <h1><b>Bienvenidos a de todo un poco</b></h1>
-        <!-- <p>Aquí podrás encontrar temas interesantes desde las Telecomunicaciones, Tecnología o simplemente 
-          charlar de un buen café Rosas.</p> -->
-      </div>
-      <p class="lead"> Aquí podrás encontrar temas interesantes desde las Telecomunicaciones, Tecnología o simplemente 
-        charlar de un buen café Rosas.</p>
-      <hr class="my-4">
+    </div>  
+    <div class="content">
+      <h1><b>Este es nuestro sitio!</b></h1>
+    </div>
+    <div class="content-pie">
+      <p class="lead"><strong>Hacemos lo que decimos que vamos a hacer!</strong></p>
       <p>Para recibir información puedes dejarnos tus datos en el siguiente link.</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Suscribite</a>
     </div>                    <!-- Definimos jumbotron -->
-    </section>
-    <section>
+  </section>
+  <section class="carusel">
     <div class="slider">
       <ul>
         <li><img src="./images/1.jpg" alt="1"></li>
         <li><img src="./images/2.jpg" alt="2"></li>
         <li><img src="./images/3.webp" alt="3"></li>
         <li><img src="./images/4.jpg" alt="4"></li>
-        <!-- <h1>Cualquier parecido a la realidad es mera coincidencia</h1> -->
-        <!-- <li>
-          <video>
-            <source src="./videos/telecom.mp4" type="video/mp4">
-          </video>
-        </li> -->
       </ul>
     </div>
+  </section>
+  <aside>
+    <h2>Aside</h2>
+    <ul>
+      <li>Proximamente</li>
+      <li>Proximamente</li>
+      <li>Proximamente</li>
+      <li>Proximamente</li>
+    </ul>
+  </aside>
+  <footer>
+    <section class="footer">
+      <div class="primaria">
+        <img src="./images/footer_logo.jpg">
+      </div>
+      <div class="Contacto">
+        <a><strong>Contact with us:</strong><br>
+        Phone<br>
+        Media</a>
+      </div>
     </section>
-  <footer class="footer">
-    <!-- aquí van unos datos -->
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
