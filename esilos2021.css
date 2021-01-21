@@ -81,3 +81,28 @@ aside {
     display: flex;
     border-top: 1px solid black;
 }
+
+@media only screen and (min-width: 414px) {
+    * {
+        box-sizing: border-box;
+    }
+    .navbar > * {
+        font-size: small;
+    }
+    .principal {
+        margin-top: 40px;
+        width: 110%;
+        display: inline-block;
+        margin-left: 15%;
+
+    }
+    .principal .video {
+        text-align: center;
+    }
+    .principal .video #myVideo {
+        width: 80%;
+    }
+    aside {
+        display: none;
+    }
+}
